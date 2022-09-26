@@ -1,0 +1,11 @@
+ALGORITHM  read_a_sentence
+VAR
+    STEP1,BY,STEP2 : STRING;
+    sum : STRING := 0;  
+BEGIN
+    Read(STEP1);
+    Read(BY);
+    Read(STEP2);
+    sum := STEP1 + BY + STEP2;
+    Write(sum);
+END
