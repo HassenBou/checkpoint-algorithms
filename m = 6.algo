@@ -1,0 +1,8 @@
+m = 6
+x = ones(m,1);
+y= 2*ones(m,1);
+cMAT= dot(x,y);
+y= 0
+for i = 1:m
+	c = c + x(i,1)*y(i,1)
+end

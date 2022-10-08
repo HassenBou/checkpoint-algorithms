@@ -1,0 +1,150 @@
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~
+$ pwd
+/c/Users/User-HB25622
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~
+$ cd C:\Users\User-HB25622\Desktop\GMC_First Cource Algorithme
+bash: cd: too many arguments
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~
+$ cd
+Display all 52 possibilities? (y or n)
+.IntelliJIdea2017.2/
+.android/
+.bash_history
+.cache/
+.config/
+.dbus-keyrings/
+.eclipse/
+.gitconfig
+.gitignore
+.m2/
+.p2/
+.ssh/
+.viminfo
+.vscode/
+3D Objects/
+AppData/
+Application Data/
+Contacts/
+Cookies/
+Creative Cloud Files/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Local Settings/
+Menu Démarrer/
+Mes documents/
+MicrosoftEdgeBackups/
+Modèles/
+Music/
+NTUSER.DAT
+--More--     ^C
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~
+$ cd Desktop/
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop
+$ ls
+GMC_First Cource Algorithme/ b1compar.xlsx                gitHub.txt
+MinGW Installer.lnk          desktop.ini                  pngToSvg/
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop
+$ ls ^C
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop
+$ cd GMC_First\ Cource\ Algorithme/
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme
+$ git init
+Initialized empty Git repository in C:/Users/User-HB25622/Desktop/GMC_First Cource Algorithme/.git/
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ALGORITHM read_a_sentence.algo
+        ALGORITHM types.algo
+        links/
+        read_a_sentence.js
+        sets_of_elements.js
+        three_nb_add.algo
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ALGORITHM read_a_sentence.algo
+        ALGORITHM types.algo
+        read_a_sentence.js
+        sets_of_elements.js
+        three_nb_add.algo
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$ git add .
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ALGORITHM read_a_sentence.algo
+        new file:   ALGORITHM types.algo
+        new file:   read_a_sentence.js
+        new file:   sets_of_elements.js
+        new file:   three_nb_add.algo
+
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$ git commit -m "algo tasks js files"
+[master (root-commit) d0e5ae3] algo tasks js files
+ 5 files changed, 116 insertions(+)
+ create mode 100644 ALGORITHM read_a_sentence.algo
+ create mode 100644 ALGORITHM types.algo
+ create mode 100644 read_a_sentence.js
+ create mode 100644 sets_of_elements.js
+ create mode 100644 three_nb_add.algo
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$ git remote add origin 'https://github.com/HassenBou/checkpoint-algorithms.git'
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.75 KiB | 894.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/HassenBou/checkpoint-algorithms.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$ gitk --all
+
+User-HB25622@DESKTOP-BRTTTOD MINGW64 ~/Desktop/GMC_First Cource Algorithme (master)
+$
